@@ -1,4 +1,4 @@
-@port_no = 6000
+@port_no = 5000
 @base_url = http://localhost:{{port_no}}
 
 @database = test
