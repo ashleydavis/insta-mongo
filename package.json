@@ -1,7 +1,7 @@
 {
-    "name": "typescript-template",
-    "version": "1.0.0",
-    "description": "A template for a TypeScript app. To make it easier to start a new app without having to go through all the configuration.",
+    "name": "insta-mongo",
+    "version": "0.0.1",
+    "description": "Instantly start a MongoDB dev server and load database fixtures",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "scripts": {
@@ -15,35 +15,35 @@
         "build": "tsc --incremental",
         "bw": "npm run build:watch",
         "build:watch": "tsc  --incremental --watch",
-        "prepublishOnly": "npm test && npm run clean && tsc",
-        "t": "npm run test",
-        "test": "jest",
-        "tw": "npm run test:watch",
-        "test:watch": "jest --watch"
+        "prepublishOnly": "npm run clean && tsc"
     },
     "bin": {
-        "typescript-template-cli": "./bin/cli"
+        "insta-mongo-cli": "./bin/cli"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://ashleydavis@github.com/ashleydavis/typescript-template.git"
+        "url": "git+https://ashleydavis@github.com/ashleydavis/insta-mongo.git"
     },
     "keywords": [],
     "author": "ashley@codecapers.com.au",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ashleydavis/typescript-template/issues"
+        "url": "https://github.com/ashleydavis/insta-mongo/issues"
     },
-    "homepage": "https://github.com/ashleydavis/typescript-template#readme",
+    "homepage": "https://github.com/ashleydavis/insta-mongo#readme",
     "dependencies": {
-        "moment": "^2.29.1"
+        "express": "^5.0.0-beta.1",
+        "minimist": "^1.2.6",
+        "mongodb": "^4.6.0",
+        "mongodb-memory-server": "^8.5.2",
+        "node-mongodb-fixtures": "^3.2.9"
     },
     "devDependencies": {
-        "@types/jest": "^27.5.1",
+        "@types/express": "^4.17.13",
+        "@types/minimist": "^1.2.2",
         "@types/node": "^16.11.7",
-        "jest": "^28.1.0",
+        "@types/node-mongodb-fixtures": "^3.2.3",
         "nodemon": "^2.0.16",
-        "ts-jest": "^28.0.2",
         "ts-node": "^10.7.0",
         "typescript": "^4.6.4"
     }

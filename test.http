@@ -1,0 +1,42 @@
+@port_no = 6000
+@base_url = http://localhost:{{port_no}}
+
+@database = test
+
+####
+# Checks if the server is alive.
+#
+
+GET {{base_url}}/is-alive
+
+###
+# Gets the content of a collection.
+#
+
+@collection = person
+
+GET {{base_url}}/get-collection?db={{database}}&col={{collection}}
+
+###
+# Drops a particular collection.
+
+@collection = person
+
+GET {{base_url}}/drop-collection?db={{database}}&col={{collection}}
+
+###
+# Loads a named database fixture.
+
+@fixture = example-json-fixture
+# @fixture = example-js-fixture
+
+GET {{base_url}}/load-fixture?db={{database}}&fix={{fixture}}
+
+###
+# Unloads a named database fixture.
+#
+
+@fixture = example-json-fixture
+# @fixture = example-js-fixture
+
+GET {{base_url}}/unload-fixture?db={{database}}&fix={{fixture}}
