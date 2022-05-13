@@ -90,9 +90,9 @@ Place your database fixtures under ./fixtures like this:
 
 Each JavaScript or JSON file is loaded into it's own collection that is the same as the name of the file.
 
-[See example JavaScript collection here]([todo](https://github.com/ashleydavis/insta-mongo/blob/main/fixtures/example-js-fixture/person.js)).
+[See example JavaScript collection here](https://github.com/ashleydavis/insta-mongo/blob/main/fixtures/example-js-fixture/person.js).
 
-[See example JSON collection here]([todo](https://github.com/ashleydavis/insta-mongo/tree/main/fixtures/example-json-fixture)).
+[See example JSON collection here](https://github.com/ashleydavis/insta-mongo/tree/main/fixtures/example-json-fixture).
 
 ## REST API end points
 
