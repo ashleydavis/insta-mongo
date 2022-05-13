@@ -123,3 +123,15 @@ HTTP GET http://localhost:5000/get-collection?db=<db-name>&col=<collection-name>
 ```
 
 [See a VS Code REST Client script that exercises these REST APIs](https://github.com/ashleydavis/insta-mongo/blob/main/test.http).
+
+## Acknowledgements
+
+Thanks so much to the developers of mongodb-memory-server, without this it wouldn't be possible.
+
+https://github.com/nodkz/mongodb-memory-server
+
+Thanks also to my earlier project that has provided the REST API for insta-mongo and has now been superseded by insta-mongo:
+
+https://github.com/ashleydavis/db-fixture-rest-api
+
+db-fixture-rest-api you served me well, now you can rest ;)
