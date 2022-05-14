@@ -4,6 +4,14 @@ Instantly start a MongoDB dev server and load database fixtures.
 
 You need [Node.js](https://nodejs.org/) installed to use `insta-mongo`.
 
+## Support the developer 
+
+<a target="_blank" href="http://www.codecapers.com.au/#support-my-work">Click here to **support the developer.**</a>
+
+## An example
+
+[See here for an example of `insta-mongo` in a simple Node.js/Express app.](https://github.com/ashleydavis/insta-mongo-example)
+
 ## Install it
 
 Install globally:

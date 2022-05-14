@@ -1,6 +1,6 @@
 {
     "name": "insta-mongo",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Instantly start a MongoDB dev server and load database fixtures",
     "main": "build/index.js",
     "types": "build/index.d.ts",
@@ -24,7 +24,14 @@
         "type": "git",
         "url": "git+https://ashleydavis@github.com/ashleydavis/insta-mongo.git"
     },
-    "keywords": [],
+    "keywords": [
+        "javascript",
+        "file",
+        "upload",
+        "node.js",
+        "nodejs",
+        "mongodb"
+    ],
     "author": "ashley@codecapers.com.au",
     "license": "MIT",
     "bugs": {

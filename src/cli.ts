@@ -43,7 +43,7 @@ async function main() {
 
     await startServer(app, restApiPort);
 
-    console.log(`\r\nREST API running at http://localhost:${restApiPort}`);
+    console.log(`\r\nInsta-mongo REST API running at http://localhost:${restApiPort}`);
     displayRestApiHelp(restApiPort);
 
     if (argv.load) {
