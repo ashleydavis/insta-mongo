@@ -6,7 +6,7 @@ You need [Node.js](https://nodejs.org/) installed to use `insta-mongo`.
 
 ## Support the developer 
 
-<a target="_blank" href="http://www.codecapers.com.au/#support-my-work">Click here to **support the developer.**</a>
+<a target="_blank" href="http://www.codecapers.com.au/about#support-my-work">Click here to **support the developer.**</a>
 
 ## An example
 

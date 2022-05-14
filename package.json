@@ -1,6 +1,6 @@
 {
     "name": "insta-mongo",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Instantly start a MongoDB dev server and load database fixtures",
     "main": "build/index.js",
     "types": "build/index.d.ts",
