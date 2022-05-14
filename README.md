@@ -46,7 +46,7 @@ Your `start` and `start:dev` script in your `package.json` will look something l
 {
     "scripts": {
         "start": "node index.js",
-        "start-db": "insta-mongo"
+        "start-db": "insta-mongo",
         "start:dev": "concurrently \"npm run start-db\" \"npm start\" --kill-others"
     }
 }
