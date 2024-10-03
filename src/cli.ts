@@ -281,7 +281,7 @@ function initRoutes(app: Express, dbClient: MongoClient, serverUri: string, fixt
 
     app.get("/get-collection", async (req, res) => {
         const databaseName = verifyQueryParam(req, res, "db", "Query parameter 'db' specifies database name."); 
-        const collectionName = verifyQueryParam(req, res, "col", "Query parameter 'col' specifies name of collection to drop."); 
+        const collectionName = verifyQueryParam(req, res, "col", "Query parameter 'col' specifies name of collection to get."); 
         if (!databaseName || !collectionName) {
             return;
         }
