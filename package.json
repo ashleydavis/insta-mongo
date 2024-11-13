@@ -1,6 +1,6 @@
 {
     "name": "insta-mongo",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Instantly start a MongoDB dev server and load database fixtures",
     "main": "build/index.js",
     "types": "build/index.d.ts",
@@ -41,8 +41,8 @@
     "dependencies": {
         "express": "4.21.0",
         "minimist": "^1.2.8",
-        "mongodb": "^6.9.0",
-        "mongodb-memory-server": "^10.0.1",
+        "mongodb": "^6.10.0",
+        "mongodb-memory-server": "^10.1.2",
         "node-mongodb-fixtures": "^3.2.9"
     },
     "devDependencies": {
